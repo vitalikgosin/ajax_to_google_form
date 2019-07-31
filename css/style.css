@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url(../fonts/MuseoSansCyrl900.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url(../fonts/MuseoSansCyrl.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url(../fonts/Museosanscyrl1.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+.wrap{
+	width: 652px;
+	background: #ccc;
+	padding: 44px 50px;
+	background-image:url('../img/image.png');
+
+}
+.baner-main-title{
+	font-family: 'MuseoSansCyrl';
+  font-weight: 900;
+  font-size: 30px;
+  color:#fff;
+  margin-bottom: 29px;
+}
+.baner-title{
+	font-family: 'MuseoSansCyrl';
+  font-weight: 100;
+  font-size: 24px;
+  color:#fff;
+  margin-bottom: 50px;s
+  max-width: 435px;
+}
+
+.form-inline .form-control {
+   
+    font-size: 14px;
+    border: 2px solid #8145F4;
+    border-radius: 0;
+    padding: 18px 12px;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545;
+    padding-right: 0;
+    }
+    .form-control.is-valid, .was-validated .form-control:valid{
+    	padding-right: 0;
+    	background-image: none;
+    }
+.form-control.is-invalid~.invalid-feedback, .form-control.is-invalid~.invalid-tooltip, .was-validated .form-control:invalid~.invalid-feedback, .was-validated .form-control:invalid~.invalid-tooltip {
+    display: block;
+    position: absolute;
+    bottom: -20px;
+}
+
+.btn.btn-form-1{
+
+	  font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #8145F4;
+    border-radius: 0;
+    background: #8145f4;
+    color: #fff;
+    position: relative;
+    padding: 8px 30px;
+}
+.btn.btn-form-1:before {
+
+	content: '';
+  background: transparent;
+  border: 2px solid #8145F4;
+  top: 7px;
+  right: -7px;
+  bottom: -7px;
+  left: 7px;
+  position: absolute;
+ 
+  }
+
+  .btn.btn-form-1:after {
+
+ content: 'Нажимая, я принимаю условия соглашения';
+	font-size: 10px;
+  bottom: -42px;
+  left: 0px;
+  position: absolute;
+
+  }
