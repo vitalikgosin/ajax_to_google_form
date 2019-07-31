@@ -21,8 +21,11 @@
 	background: #ccc;
 	padding: 44px 50px;
 	background-image:url('../img/image.png');
+	margin: 50px 0;
 
 }
+
+
 .baner-main-title{
 	font-family: 'MuseoSansCyrl';
   font-weight: 900;
@@ -38,6 +41,7 @@
   margin-bottom: 50px;s
   max-width: 435px;
 }
+
 
 .form-inline .form-control {
    
@@ -94,3 +98,78 @@
   position: absolute;
 
   }
+
+/*--------------------------- form 2------*/
+
+.wrap2{
+	width: 652px;
+	background: #eee;
+	padding: 44px 50px;
+	margin: 50px 0;
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(87,0,255,1);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(87,0,255,1);
+	box-shadow: 10px 10px 0px 0px rgba(87,0,255,1);
+
+}
+  .wrap2 .baner-main-title, .wrap2 .baner-title, .wrap2 .btn.btn-form-1:after{
+  	color:#000;
+  }
+
+
+/*--------------------------- Media query ------*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)  {
+
+.wrap, .wrap2{
+	max-width: 335px;
+    background: #ccc;
+    padding: 50px 20px;
+    background-image: url(../img/imagemob.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+
+}
+
+.wrap2{
+	max-width: 335px;
+    background: #eee;
+    padding: 50px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+
+}
+.baner-main-title{
+	
+  font-size: 26px;
+  line-height: 32px;
+  
+}
+.baner-title{
+	
+  font-size: 18px;
+  
+  
+}
+.btn.btn-form-1, .form-inline .form-control {
+   
+    width: 100%;
+}
+
+.col-12{
+	padding: 0;
+}
+
+.btn.btn-form-1:after{
+    left: 0px;
+    right: 0px;
+    width: 163px;
+    margin: auto;
+    position: absolute;
+}
+
+}
