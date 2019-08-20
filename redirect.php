@@ -1,3 +1,12 @@
 <?php
-header('Location:https://docs.google.com/forms/d/e/1FAIpQLSfTlKAGKd2ggq75yW3edsprY_gPDbuopeFnf2jM2I6OzDRm4Q/formResponse',true, 301);
+
+$response = $client->request('POST', 'http://httpbin.org/post', [
+    'form_params' => [
+        'field_name' => 'abc',
+        'other_field' => '123',
+        'nested_field' => [
+            'nested' => 'hello'
+        ]
+    ]
+]);
 ?>

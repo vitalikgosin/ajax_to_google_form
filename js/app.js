@@ -37,7 +37,7 @@ $('body').on('submit', '#forminline', function (e) {
 						url: "https://docs.google.com/forms/d/e/1FAIpQLSfTlKAGKd2ggq75yW3edsprY_gPDbuopeFnf2jM2I6OzDRm4Q/formResponse",
 						data: {"entry.703792878": field1, "entry.1331950411": field2},
             type: "POST",
-            dataType: "jsonp",
+            dataType: "xml",
             crossDomain: true,
             beforeSend: function(xhr){
                 xhr.withCredentials = true;
